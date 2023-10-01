@@ -80,8 +80,14 @@
     </div>
     <script>
         function opendrawer() {
+            var menu = document.getElementById('menu');
+            if(menu.style.display === 'block') {
+                menu.style.display = 'none';
+            }
+            else{
             document.getElementById('menu').style.display = 'block';
             document.getElementById('menu').style.witdh = '100%';
+            }
         }
     </script>
 </body>
