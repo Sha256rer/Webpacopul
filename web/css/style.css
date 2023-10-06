@@ -235,4 +235,105 @@ h1 {
     }
 }
 
+.text-underline {
+    text-decoration: underline;
+}
+#ordenada2c  {
+    list-style-type: upper-alpha;
+}
+¡#ordenada2c ol {
+    list-style-type: upper-roman;
+}
+#ordenada2cd  {
+    list-style-type: lower-alpha;
+}
+#ordenada2cd ol  {
+    list-style-type: lower-roman;
+}
+#ordenada2cd ol ol  {
+    list-style-type: upper-roman;
+}
+#desordenada2c ul  {
+    list-style-image: url(../img/icono.png);
+}
+#desordenada2c ul ul {
+    list-style-image: none;
+    list-style-type: square;
+}
+dt {
+    background-color: rgb(7, 7, 114);
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    display: inline;
+}
+dd {
+    padding: 5px 0;
+}
+
+
+
+
+
+#horario{
+    width: 70%;
+    margin: 0 auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.LMSG{
+    background-color: rgb(247, 202, 201);
+    text-align: center;
+    padding: 5px;
+    font-weight: 500;
+    color: black;
+}  
+.ING{
+    background-color: rgb(119, 179, 235);
+    text-align: center;
+    padding: 5px;
+    font-weight: 500;
+    color: black;
+}  
+.PROG{
+    background-color: rgb(179, 123, 122);
+    text-align: center;
+    padding: 5px;
+    font-weight: 500;
+    color: black;
+}
+.BDD{
+    background-color: rgb(210, 210, 251);
+    text-align: center;
+    padding: 5px;
+    font-weight: 500;
+    color: black;
+}  
+.ENDE{
+    background-color: rgb(180, 179, 110);
+    text-align: center;
+    padding: 5px;
+    font-weight: 500;
+    color: black;
+
+}
+.FOL{
+    background-color:  rgb(128, 129, 187);
+    text-align: center;
+    padding: 5px;
+    font-weight: 500;
+    color: black; 
+}
+.SISI{
+    background-color:  rgb(165, 218, 156);
+    text-align: center;
+    padding: 5px;
+    font-weight: 500;
+    color: black; 
+}
+.azulverdoso th,td,caption,strong{
+    color:rgb(59, 131, 132);
+} 
+.grande{
+    font-size: x-large;
+}
 
