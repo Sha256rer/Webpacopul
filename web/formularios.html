@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso HTML5-CSS3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container shadow">
+        <header>
+            <div class="row align-items-center bg-menu">
+                <div class="col-3"><img src="img/Logo1.png" alt="logo" class="logo"></div>
+                <div class="col-9">
+                    <span id="btnmenu" onclick="opendrawer()">&#9776;</span>
+                    <nav id="menu">
+                        <ul class="text-right">
+                            <li>
+                                <a href="index.html">
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="parrafos.html">
+                                    Párrafos
+                                </a>
+                            </li>
+                            <li>
+                                <a href="enlaces.html">
+                                    Enlaces
+                                </a>
+                            </li>
+                            <li>
+                                <a href="listas.html">
+                                    Listas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tablas.html">
+                                    Tablas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="formularios.html">
+                                    Formularios
+                                </a>
+                            </li>
+                            <li>
+                                <a href="multimedia.html">
+                                    Multimedia
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main class="shadow">
+            <div class="px-3">
+                <div id="enlaces" class="py-3">
+
+                    <h4>Formulario de login</h4>
+                    <fieldset class="login">
+                        <legend>Login</legend>
+                        <form action="Login">
+                            <p> Nombre: <input type="name"></p>
+                            <p>Contraseña: <input type="password"></p>
+                            <p><input type="submit" value="Submit"></p>
+                        </form>
+                    </fieldset>
+
+                    <fieldset class="registro">
+                        <legend>Registro</legend>
+                        <form action="Registro">
+                            <p> Nombre: <input type="name"></p>
+                            <p>Contraseña: <input type="password"></p>
+                            <p><input type="submit" value="Submit"></p>
+                            <p>Fecha Nacimiento: <select name="Lista" id="lista">
+                                    <option value="1">bbb</option>
+                                    <option value="2">aaa</option>
+                                    <option value="3">ccc</option>
+                                </select>
+                                <select name="Lista" id="lista">
+                                    <option value="1">bbb</option>
+                                    <option value="2">aaa</option>
+                                    <option value="3">ccc</option>
+                                </select>
+                       
+                         <select name="Lista" id="lista">
+                            <option value="1">bbb</option>
+                            <option value="2">aaa</option>
+                            <option value="3">ccc</option>
+                        </select>
+                        </p>
+                       <p> Aficiones (tag input type checkbox) </p>
+                        <input type="checkbox" name="" id="">Gaming</p>
+                        <p><input type="checkbox" name="" id="">Anime</p>
+                        <p><input type="checkbox" name="" id="">Futbol</p>
+                        <p><input type="checkbox" name="" id="">Maderas</p>
+                        <p>Estado civil: (tag input type radio)</p>
+                        <p><input type="radio" name="" id="">Casado/a</p>
+                        <p><input type="radio" name="" id="">Casado/a</p>
+                        <p><input type="radio" name="" id="">Casado/a</p>
+                        <p><input type="radio" name="" id="">Casado/a</p>
+                      
+                        </form>
+                    </fieldset>
+
+
+                    <br>
+                    <hr>
+                    </P>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <h1 class="bg-azul-o text-center text-white py-3">&copy; Sharerp</h1>
+        </footer>
+    </div>
+    <script>
+        function opendrawer() {
+            var menu = document.getElementById('menu');
+            if (menu.style.display === 'block') {
+                menu.style.display = 'none';
+            }
+            else {
+                document.getElementById('menu').style.display = 'block';
+                document.getElementById('menu').style.witdh = '100%';
+            }
+        }
+    </script>
+</body>
+
+</html>

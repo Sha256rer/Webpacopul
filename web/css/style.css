@@ -220,7 +220,7 @@ h1 {
     margin: 16px ;
 }
 .bg-menu{
-    background-color: rgba(143, 145, 145, 0.212);
+    background-image: linear-gradient(rgba(80, 80, 80, 0.521) 10%, rgba(104, 104, 104, 0.308) 100%);
 }
 .logo{
     width: 250px;
@@ -271,44 +271,54 @@ dd {
 }
 
 
+.destilos tr:nth-child(even){
+    background-color:yellow;
+}
+
+.destilos tr:nth-child(odd){
+    background-color: lightblue;
+}
 
 
 
-#horario{
+.horario{
     width: 70%;
     margin: 0 auto;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+.horario td, .horario th, .horario strong{
+    color: rgb(16, 136, 141);
+}
 
-.LMSG{
+#LMSG {
     background-color: rgb(247, 202, 201);
     text-align: center;
     padding: 5px;
     font-weight: 500;
     color: black;
 }  
-.ING{
+#ING{
     background-color: rgb(119, 179, 235);
     text-align: center;
     padding: 5px;
     font-weight: 500;
     color: black;
 }  
-.PROG{
+#PROG{
     background-color: rgb(179, 123, 122);
     text-align: center;
     padding: 5px;
     font-weight: 500;
     color: black;
 }
-.BDD{
+#BDD{
     background-color: rgb(210, 210, 251);
     text-align: center;
     padding: 5px;
     font-weight: 500;
     color: black;
 }  
-.ENDE{
+#ENDE{
     background-color: rgb(180, 179, 110);
     text-align: center;
     padding: 5px;
@@ -316,24 +326,91 @@ dd {
     color: black;
 
 }
-.FOL{
+#FOL{
     background-color:  rgb(128, 129, 187);
     text-align: center;
     padding: 5px;
     font-weight: 500;
     color: black; 
 }
-.SISI{
+#SISI{
     background-color:  rgb(165, 218, 156);
     text-align: center;
     padding: 5px;
     font-weight: 500;
     color: black; 
 }
-.azulverdoso th,td,caption,strong{
-    color:rgb(59, 131, 132);
-} 
+
 .grande{
     font-size: x-large;
+}
+
+
+
+.primeratabla{
+    width: 60%;
+    margin: 0 auto;
+}
+.cabe > th{
+    background-color: rgb(7, 2, 80);
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+.flexeo{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: lightyellow;
+    height: 500px;
+    
+    
+   
+}
+.naranja{
+    background-color: orangered;
+    width: 20%;
+    border-radius: 5% 5% 20% 20%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;   
+    background-image: radial-gradient(orange 10%, orangered 100%);
+}
+.azul{
+    background-color: blue;
+    width: 20% ;
+    height: 50%;
+    border-radius: 5% 5% 20% 20%;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: radial-gradient(rgb(95, 93, 255) 10%, rgb(0, 0, 255) 100%);
+    
+}
+.numerocss{
+    
+    font-size: 6vw;
+    color: rgb(255, 255, 255);
+    align-self: center;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.login{
+    
+    
+}
+.registro{
+    
+    
+   
 }
 
