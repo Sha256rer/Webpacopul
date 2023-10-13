@@ -59,7 +59,140 @@
         </header>
         <main class="shadow">
             <div class="px-3">
-                <table id="horario" class="azulverdoso" border="2px">
+                <div id="enlaces" class="py-3">
+                <h2 class="text-underline text-center">DIFERENTES TIPOS DE TABLAS</h2>
+                <br><hr>
+                <h4>Tabla de encabezado de fila</h4>
+                <table class="primeratabla"border="2px">
+                    <tr class="cabe">
+                        <th>File</th>
+                        <th>Edit</th>
+                        <th>Selection</th>
+                        <th>View</th>
+                        <th>Go</th>
+                    </tr>
+                    <tr>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                    </tr>
+                    <tr>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                    </tr>
+                    <tr>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                    </tr>
+                    
+                </table>
+                <h4>Tabla de encabezado de columna</h4>
+                <table border="2px">
+                    <tr>
+                        <th>File</th>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                    </tr>
+                    <tr>
+                        <th>Edit</th>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                    </tr>
+                    <tr>
+                        <th>Selection</th>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                    </tr>
+                    <tr>
+                        <th>View</th>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                    </tr>
+            
+                </table>
+                <h4>Tabla con combinaciones de celdas</h4>
+               <table border="2px">
+                <tr>
+                <th>File</th>
+                <th>Edit</th>
+                <th>Selection</th>
+                <th>View</th>
+                <th>Go</th>
+                </tr>
+                <tr>
+                    <td>Celda</td>
+                    <td>Celda</td>
+                    <td>Celda</td>
+                    <td>Celda</td>
+                    <td>Celda</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Celda</td>
+                    <td colspan="4">Celda</td>
+    
+                </tr>
+                <tr>
+                    <td>Celda</td>
+                    <td>Celda</td>
+                    <td>Celda</td>
+                    <td>Celda</td>
+                </tr>
+               </table>
+
+               <h4>Tabla con diferente diseño en filas pares e impares</h4>
+               
+               <table border="2" class="destilos">
+                <tr>
+                <th>File</th>
+                <th>Edit</th>
+                <th>Selection</th>
+                <th>View</th>
+                <th>Go</th>
+                </tr>
+                <tr>
+                    <td>Celda</td>
+                    <td>Celda</td>
+                    <td>Celda</td>
+                    <td>Celda</td>
+                    <td>Celda</td>
+                </tr>
+                <tr>
+                    <td>Celda</td>
+                    <td>Celda</td>
+                    <td>Celda</td>
+                    <td>Celda</td>
+                    <td>Celda</td>
+                </tr>
+                <tr>
+                    <td>Celda</td>
+                    <td>Celda</td>
+                    <td>Celda</td>
+                    <td>Celda</td>
+                    <td>Celda</td>
+                </tr>
+               </table>
+                
+             
+
+
+
+                <table class="horario" class="azulverdoso" border="2px">
                     <caption class="grande"><em><strong>S1DAM</strong></em></caption>
                     <tr>
                         <th>/--\</th>
@@ -71,22 +204,22 @@
                     </tr>
                     <tr>
                         <td class="text-center"><strong>8:15<br>9:10</strong></td>
-                        <td class="LMSG" rowspan="2">LMSG <br> Puli.Mo, FrJo <br>(1 B-302)</td>
-                        <td class="ING">ING <br>Corr. Pi. JoMa <br>(1 B-302)</td>
-                        <td class="PROG" rowspan="2">PROG <br> Mart Ca, JoJa <br> (1 B-302)</td>
-                        <td class="PROG" rowspan="2">PROG <br> Mart Ca, JoJa <br> (1 B-302)</td>
-                        <td class="BDD" rowspan="2">BDD <br> León Dí, JuEF <br> (1 B-302)</td>
+                        <td id="LMSG" rowspan="2">LMSG <br> Puli.Mo, FrJo <br>(1 B-302)</td>
+                        <td id="ING">ING <br>Corr. Pi. JoMa <br>(1 B-302)</td>
+                        <td id="PROG" rowspan="2">PROG <br> Mart Ca, JoJa <br> (1 B-302)</td>
+                        <td id="PROG" rowspan="2">PROG <br> Mart Ca, JoJa <br> (1 B-302)</td>
+                        <td id="BDD"="BDD" rowspan="2"">BDD <br> León Dí, JuEF <br> (1 B-302)</td>
                     </tr>
                     <tr>
                         <td class="text-center"><strong>9:10<br>10:05</strong></td>
-                        <td class="BDD" rowspan="2" >BDD <br> León Dí, JuEF <br> (1 B-302)</td>
+                        <td id="BDD"="BDD" rowspan="2" >BDD <br> León Dí, JuEF <br> (1 B-302)</td>
                     </tr>
                     <tr>
                         <td class="text-center"><strong>10:05<br>11:00</strong></td>
-                        <td class="ING">ING <br>Corr. Pi. JoMa <br>(1 B-302)</td>
-                        <td class="BDD">BDD <br> León Dí, JuEF <br> (1 B-302)</td>
-                        <td class="ENDE">ENDE <br> Polo Or, Ed <br> (1 B-302)</td>
-                        <td class="FOL">FOL <br>Marín Ca, RoMa, <br> (1 B-302)</td>
+                        <td id="ING">ING <br>Corr. Pi. JoMa <br>(1 B-302)</td>
+                        <td id="BDD"">BDD <br> León Dí, JuEF <br> (1 B-302)</td>
+                        <td id="ENDE"> ENDE<br> Polo Or, Ed <br> (1 B-302)</td>
+                        <td id="FOL">FOL <br>Marín Ca, RoMa, <br> (1 B-302)</td>
                     </tr>
                     <tr>
                         <td></td>
@@ -94,22 +227,22 @@
                     </tr>
                     <tr>
                         <td class="text-center"><strong>11:30<br>12:25</strong></td>
-                        <td class="PROG" rowspan="2">PROG <br> Mart Ca, JoJa <br> (1 B-302)</td>
-                        <td class="ENDE">ENDE <br> Polo Or, Ed <br> (1 B-302)</td>
-                        <td class="BDD">BDD <br> León Dí, JuEF <br> (1 B-302)</td>
-                        <td class="SISI" rowspan="2">SISI <br> Reoy. He, ÓsAn <br>(1 B-302) </td>
-                        <td class="SISI" rowspan="2">SISI <br> Reoy. He, ÓsAn <br>(1 B-302) </td>
+                        <td id="PROG" rowspan="2">PROG <br> Mart Ca, JoJa <br> (1 B-302)</td>
+                        <td id="ENDE">ENDE <br> Polo Or, Ed <br> (1 B-302)</td>
+                        <td id="BDD"">BDD <br> León Dí, JuEF <br> (1 B-302)</td>
+                        <td id="SISI" rowspan="2">SISI <br> Reoy. He, ÓsAn <br>(1 B-302) </td>
+                        <td id="SISI" rowspan="2">SISI <br> Reoy. He, ÓsAn <br>(1 B-302) </td>
                     </tr>
                     <tr>
                         <td class="text-center"><strong>12:25<br>13:10</strong></td>
-                        <td class="SISI" rowspan="2">SISI <br> Reoy. He, ÓsAn <br>(1 B-302) </td>
-                        <td class="LMSG" rowspan="2">LMSG <br> Puli.Mo, FrJo <br>(1 B-302)</td>
+                        <td id="SISI" rowspan="2">SISI <br> Reoy. He, ÓsAn <br>(1 B-302) </td>
+                        <td id="LMSG" rowspan="2">LMSG <br> Puli.Mo, FrJo <br>(1 B-302)</td>
                     </tr>
                     <tr>
                         <td class="text-center"><strong>13:10<br>14:15</strong></td>
-                        <td class="FOL">FOL <br>Marín Ca, RoMa, <br> (1 B-302)</td>
-                        <td class="FOL">FOL <br>Marín Ca, RoMa, <br> (1 B-302)</td>
-                        <td class="ENDE">ENDE <br> Polo Or, Ed <br> (1 B-302)</td>
+                        <td id="FOL">FOL <br>Marín Ca, RoMa, <br> (1 B-302)</td>
+                        <td id="FOL">FOL <br>Marín Ca, RoMa, <br> (1 B-302)</td>
+                        <td id="ENDE">ENDE<br> Polo Or, Ed <br> (1 B-302)</td>
                     </tr>
                 </table>
 
@@ -117,6 +250,7 @@
 
                 <br>
                 <hr>
+                </div>
             </div>
     </div>
     </main>
