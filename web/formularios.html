@@ -59,24 +59,30 @@
         </header>
         <main class="shadow">
             <div class="px-3">
-                <div id="enlaces" class="py-3">
-
-                    <h4>Formulario de login</h4>
-                    <fieldset class="login">
+                <div id="formularios" class="py-3">
+                    <h2 class="text-center">FORMULARIOS</h2>
+                    <br>
+                    <hr>
+                   
+                    <form action="Login" class="login">
+                    <h3>Formulario de login</h3>
+                    <fieldset>
                         <legend>Login</legend>
                         <form action="Login">
                             <p> Nombre: <input type="name"></p>
                             <p>Contraseña: <input type="password"></p>
-                            <p><input type="submit" value="Submit"></p>
-                        </form>
+                            <p><input type="submit" value="Submit" class="btn"></p>
                     </fieldset>
+                </form>
 
-                    <fieldset class="registro">
-                        <legend>Registro</legend>
-                        <form action="Registro">
+
+                    <form action="Registro"  class="registro">
+                        <h3>Formulario registro</h3>
+                        <fieldset>
+                            <legend>Registro</legend>
                             <p> Nombre: <input type="name"></p>
                             <p>Contraseña: <input type="password"></p>
-                            <p><input type="submit" value="Submit"></p>
+
                             <p>Fecha Nacimiento: <select name="Lista" id="lista">
                                     <option value="1">bbb</option>
                                     <option value="2">aaa</option>
@@ -87,27 +93,45 @@
                                     <option value="2">aaa</option>
                                     <option value="3">ccc</option>
                                 </select>
-                       
-                         <select name="Lista" id="lista">
-                            <option value="1">bbb</option>
-                            <option value="2">aaa</option>
-                            <option value="3">ccc</option>
-                        </select>
-                        </p>
-                       <p> Aficiones (tag input type checkbox) </p>
-                        <input type="checkbox" name="" id="">Gaming</p>
-                        <p><input type="checkbox" name="" id="">Anime</p>
-                        <p><input type="checkbox" name="" id="">Futbol</p>
-                        <p><input type="checkbox" name="" id="">Maderas</p>
-                        <p>Estado civil: (tag input type radio)</p>
-                        <p><input type="radio" name="" id="">Casado/a</p>
-                        <p><input type="radio" name="" id="">Casado/a</p>
-                        <p><input type="radio" name="" id="">Casado/a</p>
-                        <p><input type="radio" name="" id="">Casado/a</p>
-                      
-                        </form>
-                    </fieldset>
 
+                                <select name="Lista" id="lista">
+                                    <option value="1">bbb</option>
+                                    <option value="2">aaa</option>
+                                    <option value="3">ccc</option>
+                                </select>
+                            </p>
+                            <p> Aficiones (tag input type checkbox) </p>
+                            <input type="checkbox" name="" id="">Gaming</p>
+                            <p><input type="checkbox" name="" id="">Anime</p>
+                            <p><input type="checkbox" name="" id="">Futbol</p>
+                            <p><input type="checkbox" name="" id="">Maderas</p>
+                            <p>Estado civil: (tag input type radio)</p>
+                            <p><input type="radio" name="ec" id="1">Casado/a</p>
+                            <p><input type="radio" name="ec" id="2">Soltero/a</p>
+                            <p><input type="radio" name="ec" id="3">Viudo/a</p>
+                            <p><input type="radio" name="ec" id="4">Raro</p>
+                            <p>Provincia: (tag select multiple)</p>
+                            <select name="" id="" multiple>
+                                <option value="">aaa</option>
+                                <option value="">bbb</option>
+                                <option value="">cccc</option>
+                            </select>
+                            <p>Foto:(tag input type file) <input type="file" name="" id=""> </p>
+                            <input type="submit" value="Enviar" class="btn">
+                    </fieldset>
+                </form>
+                    <div class="cb"></div>
+                    <form action="Inputs" class="formhtml5">
+                        <h3 class="text-center">FORMULARIO CON ELEMENTOS HTML5</h3>
+                        <fieldset>
+                            <legend>Inputs HTML5</legend>
+                            <p><label for="">Color:</label><input type="color" name="" id=""></p>
+                            <p><label for="">Date:</label><input type="date" name="" id=""></p>
+                            <p><label for="">Datetime:</label><input type="datetime" name="" id=""></p>
+                            <input type="submit" value="Enviar" class="btn">
+                            
+                        </fieldset>
+                    </form>
 
                     <br>
                     <hr>
