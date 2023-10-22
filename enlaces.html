@@ -58,32 +58,31 @@
             </div>
         </header>
         <main class="shadow">
-            <div class="px-3">
-             <div id="enlaces" class="py-3">
-                <h2 class="text-center">ENLACES</h2>
-                <br> <hr>
-                <p>Listaza de enlaces</p>
-                <h2 class="text-subr">Tipos de enlaces:</h2>
-                <h3>Elace a una página nuestra</h3>
-                <a href="index.html">Enlace a home</a>
-                <h3>Enlace a una pagina web</h3>
-                <a href="https://google.com">Vamos a google</a>
-                <h3>Enlace en una pestaña nueva</h3>
-                <a href="https://toledo.es" target="_blank">Toledo</a>
-                <h3>Enlace a un programa js</h3>
-                <a href="javascript:alert('hola mundo')">JS</a>
-                <h3>Enlace de email</h3>
-                <a href="mailto:example@example.com">Manda queja aquí</a>
-                <h3>Enlace a una imagen</h3>
-                <P class = "text-center">
-                <a href="https://google.es">
-                    <img src="img\GoogleC.png" alt="google" width="7%">
-                </a>
-            </P>
-
-             </div>
-
+            <div id="enlaces">
+                <h2 class="text-center bg-azul-o text-white title">ENLACES</h2>
+                <div class="px-3">
+                    <p></p>
+                    <h2 class="text-subr">Tipos de enlaces:</h2>
+                    <h3>Elace a una página nuestra</h3>
+                    <a href="index.html">Enlace a home</a>
+                    <h3>Enlace a una pagina web</h3>
+                    <a href="https://google.com">Vamos a google</a>
+                    <h3>Enlace en una pestaña nueva</h3>
+                    <a href="https://toledo.es" target="_blank">Toledo</a>
+                    <h3>Enlace a un programa js</h3>
+                    <a href="javascript:alert('hola mundo')">JS</a>
+                    <h3>Enlace de email</h3>
+                    <a href="mailto:example@example.com">Manda queja aquí</a>
+                    <h3>Enlace a una imagen</h3>
+                    <P class="text-center">
+                        <a href="https://google.es">
+                            <img src="img\GoogleC.png" alt="google" width="7%">
+                        </a>
+                    </P>
+                </div>
             </div>
+
+
         </main>
         <footer>
             <h1 class="bg-azul-o text-center text-white py-3">&copy; Sharerp</h1>
@@ -92,12 +91,12 @@
     <script>
         function opendrawer() {
             var menu = document.getElementById('menu');
-            if(menu.style.display === 'block') {
+            if (menu.style.display === 'block') {
                 menu.style.display = 'none';
             }
-            else{
-            document.getElementById('menu').style.display = 'block';
-            document.getElementById('menu').style.witdh = '100%';
+            else {
+                document.getElementById('menu').style.display = 'block';
+                document.getElementById('menu').style.witdh = '100%';
             }
         }
     </script>

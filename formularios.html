@@ -58,12 +58,10 @@
             </div>
         </header>
         <main class="shadow">
-            <div class="px-3">
-                <div id="formularios" class="py-3">
-                    <h2 class="text-center">FORMULARIOS</h2>
-                    <br>
-                    <hr>
-                   
+            
+                <div id="formularios">
+                    <h2 class="text-center bg-azul-o text-white title">FORMULARIOS</h2>
+                    <div class="px-3">  
                     <form action="Login" class="login">
                     <h3>Formulario de login</h3>
                     <fieldset>
@@ -100,8 +98,11 @@
                                     <option value="3">ccc</option>
                                 </select>
                             </p>
-                            <p> Aficiones (tag input type checkbox) </p>
-                            <input type="checkbox" name="" id="">Gaming</p>
+                            <p><label for="">Comentarios (tag textarea)</label></p>
+                            <textarea name="" id="" cols="50" rows="5"></textarea>
+
+                            <p><label for="">Aficiones (tag input type checkbox)</label></p>
+                            <p><input type="checkbox" name="" id="">Gaming</p>
                             <p><input type="checkbox" name="" id="">Anime</p>
                             <p><input type="checkbox" name="" id="">Futbol</p>
                             <p><input type="checkbox" name="" id="">Maderas</p>
@@ -112,9 +113,11 @@
                             <p><input type="radio" name="ec" id="4">Raro</p>
                             <p>Provincia: (tag select multiple)</p>
                             <select name="" id="" multiple>
-                                <option value="">aaa</option>
-                                <option value="">bbb</option>
-                                <option value="">cccc</option>
+                                <option value="1">Toledo</option>
+                                <option value="2">Guadalajara</option>
+                                <option value="3">Albacete</option>
+                                <option value="4">Cuenca</option>
+                                <option value="5">Toledo</option>
                             </select>
                             <p>Foto:(tag input type file) <input type="file" name="" id=""> </p>
                             <input type="submit" value="Enviar" class="btn">
@@ -131,18 +134,16 @@
                             <p><label for="">Email</label><input type="email" name="" id=""></p>
                             <p><label for="">Month</label><input type="month" name="" id=""></p>
                             <p><label for="">Number</label><input type="number" name="" id=""></p>
+                            <p><label for="">Range</label><input type="range" name="" id=""></p>
                             <p><label for="">Tel</label><input type="tel" name="" id=""></p>
                             <p><label for="">Time</label><input type="time" name="" id=""></p>
                             <p><label for="">Url</label><input type="url" name="" id=""></p>
-                            <p><label for="">week</label><input type="week" name="" id=""></p>
+                            <p><label for="">Week</label><input type="week" name="" id=""></p>
                             <input type="submit" value="Enviar" class="btn">
                             
                         </fieldset>
                     </form>
-
                     <br>
-                    <hr>
-                    </P>
                 </div>
             </div>
         </main>
